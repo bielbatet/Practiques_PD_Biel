@@ -32,7 +32,7 @@ void setup() {
         Serial.println(F("Error: No s'ha detectat el sensor MAX30102!"));
         for (;;);
     }
-    
+
     particleSensor.setup(50, 4, 2, 100, 411, 4096);
 }
 

@@ -7,7 +7,7 @@
 #define SCREEN_HEIGHT 32
 
 // Direcció I2C confirmada de la pantalla OLED
-#define SCREEN_ADDRESS 0x3C 
+#define SCREEN_ADDRESS 0x3C
 
 // Definir els pins I2C (ESP32-S3 per defecte: GPIO 8 = SDA, GPIO 9 = SCL)
 #define SDA_PIN 8
